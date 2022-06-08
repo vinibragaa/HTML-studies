@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+      integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    
+    <title>HTML Table</title>
+    
+</head>
+
+<script>
+ function msg() {
+   alert("Enviado com sucesso");
+ }
+ </script>
+<form>
+  <div>
+   <label for="pnome">Priemiro nome:</label><br>
+   <input type="text" name="pnome" id="pnome"><br>
+   <br>
+   <label for="unome">Último nome:</label><br>
+   <input type="text" name="unome" id="unome" placeholder=""><br>
+
+   <br>
+   <label for="idade">Telefone:</label><br>
+   <input type="text" name="tel" id="tel"><br>
+   
+   <p>Qual sua idade?</p>
+     <input type="radio" name="idade" value="18_22">18 a 22 <br>
+     <input type="radio" name="idade" value="23_30">23 a 30 <br>
+     <input type="radio" name="idade" value="mais31">acima de 31<br>
+  
+    <caption>Como vem para a faculdade?</caption><br><br>
+     <input type="checkbox" name="veiculo1" value="bicicleta">Eu tenho uma bicicleta<br>
+     <input type="checkbox" name="veiculo2" value="carro">Eu tenho um carro<br>
+     <input type="checkbox" name="veiculo3" value="moto">Eu tenho uma moto
+     <br><br>
+     <input type="password" name="senha" placeholder="Digite sua Senha">
+     <br>
+
+   <input type="submit" value="Enviar Formulário" onclick="msg()">  <input type="reset" value="Limpar">
+   
+ </div>
+</form>
