@@ -1,0 +1,15 @@
+td, tr{
+    border: 1px solid black;
+    width: auto;
+}
+div{
+    text-align: center;
+}
+table{
+    border: 3px black;
+    border-style: inset inset inset inset;
+    background-color: pink;
+    border-radius: 6px;
+    width: 100%;
+    text-align: center;
+}
