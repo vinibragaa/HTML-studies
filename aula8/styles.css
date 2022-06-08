@@ -1,0 +1,46 @@
+div{
+    text-align: center;
+    margin: 15px 0;}
+   
+   
+   
+   
+   input[type=text],
+   input[type=email],
+   input[type=tel],
+   textarea{
+    text-align: center;
+    width: 50%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
+   }
+   
+   input[type=password]{
+    text-align: center;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 15px;
+   }
+   
+   input[type=submit],
+   input[type=reset]
+   {
+    
+    background-color: rgb(202, 192, 192);
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 15px;
+   }
+   
+   input[type=radio]{
+   
+    margin-bottom: 15px;
+   }
